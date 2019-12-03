@@ -7,6 +7,3 @@ getFuel n
 
 getFuelTotal :: [Integer] -> Integer
 getFuelTotal l = sum [ getFuel x - x | x <- l ]
-
-main = do
-  putStrLn (show (getFuelTotal AOC.testData))
