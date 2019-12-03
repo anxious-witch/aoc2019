@@ -31,4 +31,8 @@ def manipulate(opcode: int, a: int, b: int) -> int:
         return a * b
 
 
-print(run(l, 12, 2))
+for x in range(100):
+    for y in range(100):
+        copied = l.copy()
+        if run(copied, x, y) == 19690720:
+            print(100 * x + y)
