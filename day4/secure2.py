@@ -35,7 +35,7 @@ def is_match(password: int) -> bool:
     return False
 
 
-upper_limit = 240298
-lower_limit = 784856
+lower_limit = 240298
+upper_limit = 784856
 
-print(bruteforce(upper_limit, lower_limit))
+print(bruteforce(lower_limit, upper_limit))
