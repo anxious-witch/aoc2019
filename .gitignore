@@ -3,6 +3,8 @@
 AOC.hs
 AOC.py
 i
+input.txt
+test.txt
 
 # Created by https://www.gitignore.io/api/vim,python,haskell
 # Edit at https://www.gitignore.io/?templates=vim,python,haskell
